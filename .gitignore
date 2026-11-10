@@ -1,0 +1,27 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and editor files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Model files and caches
+.hf-cache/
+.cache/
+research-assistant-model/
+research-assistant-model.zip
+checkpoint-*/
+*.safetensors
+
+# Logs
+*.log
